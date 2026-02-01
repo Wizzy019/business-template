@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className=''>
+    <div className='about-page'>
       <h1>About Page</h1>
       <p>This is the about page</p>
     </div>
@@ -10,3 +10,5 @@ function About() {
 }
 
 export default About
+
+
