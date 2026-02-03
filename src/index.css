@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+.marquee {
+  animation: slideLoop 8s linear infinite;
+  white-space: nowrap;
+}

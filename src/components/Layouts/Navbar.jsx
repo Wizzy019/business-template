@@ -37,7 +37,7 @@ const Navbar = ({ brandName, links }) => {
           <input
             type="text"
             placeholder="Search..."
-            className="border rounded px-3 py-1 text-sm text-gray-500"
+            className="border rounded-xl px-3 py-1 text-sm text-gray-500"
           />
 
           <div className="flex gap-4">

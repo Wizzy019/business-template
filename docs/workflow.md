@@ -17,3 +17,10 @@
 1. Create a header with two contents Logo and navbar
 2. reate a div in the RHS fo the Logo
 3. Create a nav in the LHS for the Navlink, For the large screen - Search bar after the navlinks, some icons ("cart" , "favourites") at the end of the header. For the small screen - an icon to open the navbar, the Navlinks and the rest of the item vertically aligned
+
+<!-- Home -->
+
+Crete an animated Short bold desc text
+Add an image to the homepage
+Add social icons
+Add texts

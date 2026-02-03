@@ -5,7 +5,7 @@ import About from './pages/About'
 
 function App() {
   return (
-    <div className=''>
+    <div className='overflow-x-hidden'>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
