@@ -4,8 +4,6 @@ import Navbar from "../components/Layouts/Navbar"
 import HeroImage from '../assets/images/headset.png'
 import Hero from "../components/Common/Hero"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGlobe } from "@fortawesome/free-solid-svg-icons";
-import { faFacebook, faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import ProductHero from "../components/Common/ProductHero";
 
   const HomeIcons = ({icon}) => (

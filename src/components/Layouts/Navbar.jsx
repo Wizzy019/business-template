@@ -23,7 +23,7 @@ const Navbar = ({ brandName, links }) => {
         <h1 className="text-lg font-bold">{brandName}</h1>
 
         {/* Desktop Nav */}
-        <div className="hidden md:flex items-center gap-6">
+        <div className="hidden md:flex items-center gap-6 cursor-pointer">
           {links.map((link) => (
             <Link
               key={link.name}

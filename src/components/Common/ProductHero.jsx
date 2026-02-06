@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUpRightFromSquare} from '@fortawesome/free-solid-svg-icons';
-import { faDribbble, faFacebookF, faXTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import {  faFacebookF, faXTwitter, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 import HeadsetImage from '../../assets/images/headset.png'
 import Hero from './Hero';
@@ -18,7 +18,7 @@ const ProductHero = () => {
         <div className="order-2 md:order-1 flex flex-col justify-center ">
           <div className="relative w-48 h-48 bg-[#d6eaf8] rounded-2xl overflow-hidden group cursor-pointer shadow-lg">
             <img 
-              src="path/to/secondary-image.jpg" 
+              src={HeadsetImage} 
               alt="Detail" 
               className="w-full h-full object-cover"
             />
@@ -45,21 +45,21 @@ const ProductHero = () => {
         <div className="order-3 flex flex-col items-end justify-center text-right space-y-12 mt-4">
           {/* Social Icons */}
           <div className="flex space-x-3">
-            {[faDribbble, faFacebookF, faXTwitter, faInstagram].map((icon, i) => (
-              <a key={i} href="#" className="w-8 h-8 rounded-full border bg-white border-gray-400 flex items-center justify-center text-gray-600 hover:bg-gray-800 hover:text-white transition-colors">
+            {[faWhatsapp, faFacebookF, faXTwitter, faInstagram].map((icon, i) => (
+              <a key={i} href="#" className="w-8 h-8 rounded-full border bg-white border-gray-400 flex items-center justify-center text-gray-600 hover:bg-blue-500 hover:text-white transition-colors">
                 <FontAwesomeIcon icon={icon} size="xs" />
               </a>
             ))}
           </div>
 
            {/* Headset Image */}
-          <div className='w-max flex absolute top-1/2 md:top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+          {/* <div className='w-max flex absolute top-1/2 md:top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
              <img 
             src={HeadsetImage}
             alt="Premium Headphones" 
             className="w-[400px]"
           />
-          </div>
+          </div> */}
 
           {/* Testimonial
           <div className="max-w-[200px]">

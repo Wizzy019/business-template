@@ -24,3 +24,11 @@ Crete an animated Short bold desc text
 Add an image to the homepage
 Add social icons
 Add texts
+
+<!-- Product Card -->
+
+<!-- Product Page -->
+
+Create a page with Product cards
+Display Product cards
+Filter Products according to { Product type, catergories, Prices, Brands etc}
