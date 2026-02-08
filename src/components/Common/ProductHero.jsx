@@ -51,23 +51,6 @@ const ProductHero = () => {
               </a>
             ))}
           </div>
-
-           {/* Headset Image */}
-          {/* <div className='w-max flex absolute top-1/2 md:top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-             <img 
-            src={HeadsetImage}
-            alt="Premium Headphones" 
-            className="w-[400px]"
-          />
-          </div> */}
-
-          {/* Testimonial
-          <div className="max-w-[200px]">
-            <FontAwesomeIcon icon={faQuoteLeft} className="text-gray-300 text-2xl mb-2 block ml-auto" />
-            <p className="text-sm text-gray-700 leading-relaxed italic">
-              "Perfect blend of cutting-edge technology and craftsmanship."
-            </p>
-          </div> */}
         </div>
       </div>
     </div>

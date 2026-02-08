@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ProductCard from "../Product/ProductCard";
+import ProductCard from "./ProductCard";
 
 
 import Img from '../../assets/images/sample_image.jfif'
